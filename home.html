@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>coffee Delivery</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div id="applogo">
+        <img id="imglogo" src="lgo.jpg" alt="">
+    </div>
+    <div id='navbar'><ul>
+            <li><div class="dropdown" href="#home">Coffees
+                <div class="dropdown-content">
+                <div>hello</div>
+            </div></li>
+            
+          </ul>
+          
+        </div>
+        
+            <div class='coffees'>
+                <div id="black" onclick=black()><img class ='mainimage' src="coffee black.jpg" alt=""> <br> Coffee</div >
+                
+                <div id="frapp" onclick=frapp() ><img class ='mainimage' src="frappuccino.jpg" alt=""> <br> <div> Frappuccino</div></div>
+                <div id="cold" onclick=cold() ><img class ='mainimage' src="cold coffee.jpg" alt=""><br>Cold Coffee</div>
+            </div>
+            
+    <div id='content'>    
+    </div>
+</div>
+
+
+    
+    
+    
+    <div id="overlay" >
+      <center>
+          <div class="ordernow">
+              <div id="orderslist"></div>
+              <button id="cancelbutt" onclick="cancel()">Cancel</button>
+              <button id="confirmbutt" onclick="confirm()">Confirm</button>
+              <button id="addtobutt" onclick="off()">Add to order</button>
+          </div>
+      </center>
+    </div>
+    
+    
+      
+     
+    
+    
+
+       
+   
+</body>
+</html>
